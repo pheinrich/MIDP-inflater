@@ -1,0 +1,13 @@
+MIDP Inflater
+Copyright (c) 2004,2005  Peter Heinrich
+
+These files attempt to provide an approximation of zlib's INFLATE decompression
+mechanism.  This is readily available to standard Java programs in the
+java.util.zip package, but unfortunately, not to applications based on MIDP
+(JSR 118).  This implementation is targeted primarily at low-end J2ME-based
+feature phones which, due to storage constraints, particularly benefit from
+compressing application resources.
+
+This implementation has been optimized for space, but is still reasonably fast.
+Obfuscation (via Proguard or similar) can reduce InflaterInputStream.class to
+around 4 KiB.
