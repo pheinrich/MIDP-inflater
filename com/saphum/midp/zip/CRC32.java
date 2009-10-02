@@ -38,7 +38,7 @@
 
 
 
-package com.saphum.zip;
+package com.saphum.midp.zip;
 
 
 
